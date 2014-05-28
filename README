@@ -1,0 +1,36 @@
+ITEM
+====
+
+An overlapping community detecting algorithm using information theory and expectation and maximization process
+
+1. Denpending softwares  
+In my experiments, ITEM running Red Hat Enterprise Linux Server release 5.3 (Tikanga),  
+python2.7.5  
+numpy1.7.1   
+cython0.19.1  
+cityhash, which codes can be found at https://code.google.com/p/cityhash  
+igraph0.6.5 and python-igraph 0.6.5  
+openmp  
+C++ STL  
+ITEM also uses the log function in fmath.hpp, which can be found at https://github.com/herumi/fmath ,  
+you should download fmath.hpp and save it in this directory.  
+ 
+Above softwares (may be higher versions) must be install before running ITEM.  
+ 
+If you want use the google's sparsehash to replace corresponding ones of C++ STL,   
+then sparesehash must be installed, which can be found at https://code.google.com/p/sparsehash/ ,  
+and must modify the code at 50th line of docitem.pyx from  
+DEF USEING_SPARSE_MAPANDSET = False  
+to  
+DEF USEING_SPARSE_MAPANDSET = True  
+meanwhile, please modify the code at 3th line of stdalgorithm.pxd from  
+DEF USEING_SPARSE_MAPANDSET = False  
+to  
+DEF USEING_SPARSE_MAPANDSET = True  
+ 
+2. Compile and link   
+To compile and link, please first modify setup.py an compile.sh to make the linking and including options  
+correct according your software configures.  Then run ./compile on console.  
+
+3. Run item  
+For the usages of item, just type ./item on console to see help.  
