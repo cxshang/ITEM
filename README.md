@@ -1,7 +1,7 @@
 ITEM
 ====
 
-an overlapping community detecting algorithm using information theory and expectation and maximization process
+An overlapping community detecting algorithm using information theory and expectation and maximization process
 
 1. denpending softwares <br>
 In my experiments, ITEM running Red Hat Enterprise Linux Server release 5.3 (Tikanga), <br>
@@ -12,8 +12,8 @@ cityhash, which codes can be found at https://code.google.com/p/cityhash <br>
 igraph0.6.5 and python-igraph 0.6.5 <br>
 openmp <br>
 C++ STL <br>
-ITEM also uses the log function in fmath.hpp, which can be found at https://github.com/herumi/fmath <br>
-You should download fmath.hpp and save it in this directory. <br>
+ITEM also uses the log function in fmath.hpp, which can be found at https://github.com/herumi/fmath , <br>
+you should download fmath.hpp and save it in this directory. <br>
 <br>
 Above softwares (may be higher versions) must be install before running ITEM. <br>
 <br>
@@ -28,9 +28,9 @@ DEF USEING_SPARSE_MAPANDSET = False <br>
 to <br>
 DEF USEING_SPARSE_MAPANDSET = True <br>
 <br>
-2. compile and link  <br>
+2. Compile and link  <br>
 To compile and link, please first modify setup.py an compile.sh to make the linking and including options <br>
 correct according your software configures.  Then run ./compile on console. <br>
 
-3. run item <br>
+3. Run item <br>
 For the usages of item, just type ./item on console to see help. <br>
