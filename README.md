@@ -24,17 +24,14 @@ and must modify the code at 50th line of docitem.pyx from <br>
 DEF USEING_SPARSE_MAPANDSET = False <br>
 to <br>
 DEF USEING_SPARSE_MAPANDSET = True <br>
-<br>
 meanwhile, please modify the code at 3th line of stdalgorithm.pxd from <br>
 DEF USEING_SPARSE_MAPANDSET = False <br>
 to <br>
 DEF USEING_SPARSE_MAPANDSET = True <br>
-
 <br>
 2. compile and link  <br>
 To compile and link, please first modify setup.py an compile.sh to make the linking and including options <br>
 correct according your software configures.  Then run ./compile on console. <br>
 
-#++++++++++++++++++++++++++++++++++++
-3. run item
-For the usages of item, just type ./item on console to see help.
+3. run item <br>
+For the usages of item, just type ./item on console to see help. <br>
