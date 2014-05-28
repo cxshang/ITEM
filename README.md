@@ -12,13 +12,12 @@ cityhash, which codes can be found at https://code.google.com/p/cityhash <br>
 igraph0.6.5 and python-igraph 0.6.5 <br>
 openmp <br>
 C++ STL <br>
-<br>
 ITEM also uses the log function in fmath.hpp, which can be found at https://github.com/herumi/fmath <br>
 You should download fmath.hpp and save it in this directory. <br>
 <br>
 Above softwares (may be higher versions) must be install before running ITEM. <br>
 <br>
-if you want use the google's sparsehash to replace corresponding ones of C++ STL,  <br>
+If you want use the google's sparsehash to replace corresponding ones of C++ STL,  <br>
 then sparesehash must be installed, which can be found at https://code.google.com/p/sparsehash/ , <br>
 and must modify the code at 50th line of docitem.pyx from <br>
 DEF USEING_SPARSE_MAPANDSET = False <br>
