@@ -3,7 +3,7 @@ ITEM
 
 An overlapping community detecting algorithm using information theory and expectation and maximization process
 
-1. denpending softwares <br>
+1. Denpending softwares <br>
 In my experiments, ITEM running Red Hat Enterprise Linux Server release 5.3 (Tikanga), <br>
 python2.7.5 <br>
 numpy1.7.1  <br>
